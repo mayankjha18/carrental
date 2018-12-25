@@ -2,35 +2,40 @@ package com.mj.org.dto;
 
 public class CarDetailsDTO {
 	int carId;
-	String carName;
+	String name;
 	String category;
-	String carNumber;
-	
+	String number;
+
 	public int getCarId() {
 		return carId;
 	}
+
 	public void setCarId(int carId) {
 		this.carId = carId;
 	}
-	public String getCarName() {
-		return carName;
-	}
-	public void setCarName(String carName) {
-		this.carName = carName;
-	}
+
 	public String getCategory() {
 		return category;
 	}
+
 	public void setCategory(String category) {
 		this.category = category;
 	}
-	public String getCarNumber() {
-		return carNumber;
+
+	public String getName() {
+		return name;
 	}
-	public void setCarNumber(String carNumber) {
-		this.carNumber = carNumber;
+
+	public void setName(String name) {
+		this.name = name;
 	}
-	
-	
-	
+
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
 }
